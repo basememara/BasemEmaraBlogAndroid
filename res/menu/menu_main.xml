@@ -1,0 +1,66 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search_title"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        android:title="@string/search_filter"
+        android:visible="false"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_filter_any"
+                    android:checked="true"
+                    android:title="@string/any"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_filter_title"
+                    android:title="@string/title"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_filter_content"
+                    android:title="@string/content"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_filter_keywords"
+                    android:title="@string/keywords"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="@string/more"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_all"
+                    android:checked="true"
+                    android:title="@string/action_all"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_favorites"
+                    android:title="@string/action_favorites"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_popular"
+                    android:title="@string/action_popular"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_unread"
+                    android:title="@string/action_unread"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>

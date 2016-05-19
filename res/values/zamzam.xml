@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Basem Emara</string>
+    <string name="seed_file_name">posts</string>
+    <integer name="seed_files_count">2</integer>
+    <string name="base_url">http://basememara.com</string>
+    <string name="url_host">basememara.com</string>
+    <string name="newsletter_url">http://basememara.com/newsletter-signup</string>
+    <string name="blogger_first_name">Basem</string>
+    <string name="feedback_email">contact@basememara.com</string>
+    <string name="designed_by_name">Basem Emara</string>
+    <string name="designed_by_url">http://basememara.com</string>
+    <string name="google_analytics_id">UA-60131988-2</string>
+    <color name="colorPrimary">#03A9F4</color> <!--500-->
+    <color name="colorPrimaryDark">#0288D1</color> <!--700-->
+    <color name="colorAccent">#80D8FF</color> <!--A100-->
+    <array name="categories_0">
+        <item>55</item>
+        <item>Swift</item>
+    </array>
+    <array name="categories_1">
+        <item>3</item>
+        <item>JavaScript</item>
+    </array>
+    <array name="categories_2">
+        <item>2</item>
+        <item>.NET</item>
+    </array>
+    <array name="categories_3">
+        <item>4</item>
+        <item>Mobile</item>
+    </array>
+    <array name="categories_4">
+        <item>7</item>
+        <item>Web</item>
+    </array>
+    <array name="social_0">
+        <item>@id/facebook_icon</item>
+        <item>Facebook</item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="social_1">
+        <item>@id/twitter_icon</item>
+        <item>Twitter</item>
+        <item>http://twitter.com/basememara</item>
+        <item>twitter://user?screen_name=basememara</item>
+    </array>
+    <array name="social_2">
+        <item>@id/googleplus_icon</item>
+        <item>GooglePlus</item>
+        <item>http://google.com/+BasemEmara</item>
+        <item>gplus://plus.google.com/app/basic/+BasemEmara/posts</item>
+    </array>
+    <array name="social_3">
+        <item>@id/pinterest_icon</item>
+        <item>Pinterest</item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="social_4">
+        <item>@id/instagram_icon</item>
+        <item>Instagram</item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="social_5">
+        <item>@id/youtube_icon</item>
+        <item>YouTube</item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="social_6">
+        <item>@id/linkedin_icon</item>
+        <item>LinkedIn</item>
+        <item>https://www.linkedin.com/profile/view?id=36761206</item>
+        <item>linkedin://profile?id=36761206</item>
+    </array>
+    <array name="social_7">
+        <item>@id/github_icon</item>
+        <item>GitHub</item>
+        <item>https://github.com/basememara</item>
+        <item></item>
+    </array>
+    <array name="tutorial_0">
+        <item>Welcome to Basem Emara\'s blog</item>
+        <item>Thank you for downloading my mobile app! The launch of this app was inspired from uncovering the joys, pains, and realities of web, mobile, and software development. Many of my blog posts dissect this very app and other real-world projects. I also wanted to provide a better user experience, such as offline capabilities, more sharing options, advance search, favorites, notifications, and more.</item>
+        <item>@drawable/profile_pic</item>
+        <item>#5C6BC0</item>
+    </array>
+    <array name="tutorial_1">
+        <item>Blog Posts</item>
+        <item>View my blog posts in an easy to read format. Use the search and filters to narrow down your results. Switch between new and unread posts. Share directly from within the app. View related posts. Read posts even when you’re offline!</item>
+        <item>@drawable/mobile_intro</item>
+        <item>#00BCD4</item>
+    </array>
+    <array name="tutorial_2">
+        <item>Favorites</item>
+        <item>Never forget a blog post again! Mark your favorite posts for easy referencing later. Check out popular posts that the community has found helpful or interesting.</item>
+        <item>@drawable/mobile_favorite</item>
+        <item>#4CAF50</item>
+    </array>
+    <array name="tutorial_3">
+        <item>Notifications</item>
+        <item>Stay up to date with the latest messages directly from me, Basem. View my past and current newsletters all in one place. Leave comments on messages and newsletters.</item>
+        <item>@drawable/mobile_notifications</item>
+        <item>#5C6BC0</item>
+    </array>
+    <array name="tutorial_4">
+        <item>Newsletter</item>
+        <item>Thank you for coming along for the journey; I hope you find it as fun and exciting as I do! Be sure to sign up for my personal newsletter and get the latest happenings, tips, tricks, and tutorials right in your inbox!</item>
+        <item>@drawable/icon_256</item>
+        <item>#00BCD4</item>
+    </array>
+</resources>

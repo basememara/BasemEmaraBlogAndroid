@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+figure.wp-caption.aligncenter {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+h1.top-title {
+    width: 100%;
+    margin: 0;
+    padding: 5px 75px 10px 5px;
+    font-size: 20px;
+}
+
+small.top-meta {
+    float: left;
+    padding: 5px 10px 0;
+    font-style: italic;
+    color: #777;
+}
+
+.author-bio {
+    margin-top: 15px;
+}
+
+.author-bio .page-header {
+    margin-top: 5px;
+}
+
+.author-bio .page-header h3 {
+    margin-top: 0;
+}
+
+.author-bio p {
+    font-style: italic;
+}
+
+.author-bio .profile-pic {
+    float: left;
+    margin: 0 10px 3px 0;
+    border-radius: 50%;
+    border: none;
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper p:first-child a:first-child img {
+    display: none;
+}

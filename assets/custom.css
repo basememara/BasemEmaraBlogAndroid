@@ -1,0 +1,9 @@
+pre {
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre;
+    max-height: 340px;
+    overflow-y: scroll;
+    background-color: #333;
+    color: #ddd;
+}

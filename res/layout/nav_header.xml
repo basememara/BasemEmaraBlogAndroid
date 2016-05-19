@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@drawable/blue_matrix_wallpaper"
+    android:padding="2dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/app_logo_title" />
+
+    <LinearLayout
+        android:id="@+id/social_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/facebook_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/facebook" />
+        <ImageView
+            android:id="@+id/pinterest_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pinterest" />
+        <ImageView
+            android:id="@+id/twitter_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/twitter" />
+        <ImageView
+            android:id="@+id/instagram_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/instagram" />
+        <ImageView
+            android:id="@+id/googleplus_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/googleplus" />
+        <ImageView
+            android:id="@+id/youtube_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/youtube" />
+        <ImageView
+            android:id="@+id/linkedin_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/linkedin" />
+        <ImageView
+            android:id="@+id/github_icon"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/github" />
+    </LinearLayout>
+
+</LinearLayout>

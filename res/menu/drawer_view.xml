@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_nature_black_24dp"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_workwithme"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="@string/workwithme" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="@string/disclaimer" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_subscribe"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="@string/subscribe_newsletter" />
+            <item
+                android:id="@+id/nav_read_tutorial"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="@string/read_tutorial" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="@string/send_feedback" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="@string/rate_app" />
+            <item
+                android:id="@+id/nav_tell_friend"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/tell_friend" />
+            <item
+                android:id="@+id/nav_designed_by"
+                android:icon="@drawable/ic_gesture_black_24dp"
+                android:title="@string/designed_by" />
+        </menu>
+    </item>
+
+</menu>
